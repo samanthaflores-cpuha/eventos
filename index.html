@@ -153,3 +153,21 @@
 </nav>
 
 <main class="ml-64 min-h-screen">
+    <header class="flex justify-between items-center h-20 px-margin-desktop sticky top-0 z-40 bg-surface/80 backdrop-blur-md border-b border-white/10">
+    <div class="flex items-center flex-1 max-w-xl">
+        <div class="relative w-full">
+            <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant">search</span>
+            <input class="w-full bg-surface-container-low border-white/10 border rounded-lg pl-10 pr-4 py-2 text-body-md focus:border-primary focus:ring-0 transition-all" placeholder="Search events, sales, or attendees..." type="text"/>
+        </div>
+    </div>
+    <div class="flex items-center space-x-6">
+        <button class="text-on-surface-variant hover:text-primary transition-colors cursor-pointer active:opacity-80">
+            <span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+        </button>
+        <button class="text-on-surface-variant hover:text-primary transition-colors cursor-pointer active:opacity-80">
+            <span class="material-symbols-outlined" data-icon="settings">settings</span>
+        </button>
+    </div>
+</header>
+
+<div class="p-margin-desktop space-y-12 max-w-container-max mx-auto">
